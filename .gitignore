@@ -4,3 +4,7 @@ obj
 
 # Word
 *.docx
+
+# Visual Studio
+.vs
+/.vs/InvoiceGenerator/v16/.suo
