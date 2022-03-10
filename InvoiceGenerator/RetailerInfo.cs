@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace InvoiceGenerator
 {
-    internal class InvoiceSettings
+    internal class RetailerInfo
     {
-        internal InvoiceSettings()
+        internal RetailerInfo()
         {
             LoadFromJSON();
         }

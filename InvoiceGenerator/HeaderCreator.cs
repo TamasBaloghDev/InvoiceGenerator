@@ -12,7 +12,7 @@ namespace InvoiceGenerator
     {
         internal HeaderCreator()
         {
-            string fileName = @"C:\Users\HP\source\repos\InvoiceGenerator\GEN.docx";
+            string fileName = @"..\..\..\NewGen.docx";
 
             var doc = DocX.Create(fileName);
 
