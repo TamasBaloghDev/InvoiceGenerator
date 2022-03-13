@@ -6,8 +6,8 @@ namespace InvoiceGenerator
     //https://www.c-sharpcorner.com/article/generate-word-document-using-c-sharp/
     public class Invoice
     {
-        private HeaderCreator Header;
-        private RetailerInfo Retailer;
+        private CustomerInfo CustomerInfo;
+        private RetailerInfo RetailerInfo;
         public Invoice()
         {
             Console.WriteLine("Hello");

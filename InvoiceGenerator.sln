@@ -7,6 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvoiceGenerator", "Invoice
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface", "GeneratorUI\UserInterface.csproj", "{94335A18-A81E-40D8-BDAB-4A3C83FCD02B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{E1B7947F-195D-4077-A1F1-1BEFEC8F51DB}"
+	ProjectSection(SolutionItems) = preProject
+		ConstantEntries.json = ConstantEntries.json
+		CustomerInfo.json = CustomerInfo.json
+		ItemDatabase.json = ItemDatabase.json
+		RetailerInfo.json = RetailerInfo.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
